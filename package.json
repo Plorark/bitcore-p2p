@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-p2p",
+  "name": "bitcore-p2p-kore",
   "version": "1.1.2",
-  "description": "Interface to the bitcoin P2P network for bitcore",
+  "description": "Interface to the bitcoin P2P network for bitcore-kore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -48,15 +48,15 @@
     }
   ],
   "keywords": [
-    "bitcoin",
+    "kore",
     "bitcore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-p2p.git"
+    "url": "https://github.com/Plorark/bitcore-p2p-kore.git"
   },
   "dependencies": {
-    "bitcore-lib": "^0.14",
+    "bitcore-lib-kore": "^0.15.0",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"

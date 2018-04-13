@@ -56,13 +56,13 @@
     "url": "https://github.com/Plorark/bitcore-p2p-kore.git"
   },
   "dependencies": {
-    "bitcore-lib-kore": "^0.15.0",
+    "bitcore-lib-kore": "^0.15.1",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
+    "bitcore-build-kore": "^0.9.1",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",

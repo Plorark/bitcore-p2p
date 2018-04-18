@@ -5,7 +5,7 @@ The quickest way to get connected is to run the following:
 
 ```javascript
 
-var Pool = require('bitcore-p2p').Pool;
+var Pool = require('bitcore-p2p-kore').Pool;
 var Networks = require('bitcore-lib-kore').Networks;
 
 var pool = new Pool({network: Networks.livenet});
